@@ -7,6 +7,18 @@ This project aggregates hundreds of decision trees ("The Forest") to create a st
 
 ---
 
+## ⚙️ The Machine Learning Pipeline
+The project follows a strict, professional Data Science methodology to ensure reproducibility and prevent data leakage.
+
+![Project Workflow](overview.png)
+* **Load & Prep:** Ingesting raw data and handling missing values.
+* **Feature Engineering:** Separating features (X) and targets (y).
+* **Data Split:** Dividing data into Training and Testing sets.
+* **Modeling:** Training the algorithm on the training set.
+* **Evaluation:** Testing performance on unseen data to verify accuracy.
+
+---
+
 ## 📊 Key Results & Visualizations
 
 ### 1. Feature Importance Ranking
